@@ -11,12 +11,11 @@ export default function P(){
     return (
         <View>
             <Text>
-                {state.my},
-                {state.my1},
-                {state.my2},
-                {state.my3},
-                {state.my4},
+                {state.my},{state.my1},{state.my2},{state.my3},{state.my4},
             </Text>
         </View>
     )
 }
+//state example using functional component
+//state is mutable where as props is immutable
+//state can be updated

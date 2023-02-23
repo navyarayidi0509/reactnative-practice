@@ -21,3 +21,4 @@ export default function P(){
         </View>
     )
 }
+//functional component example
