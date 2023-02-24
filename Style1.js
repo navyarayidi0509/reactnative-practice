@@ -6,9 +6,6 @@ const P = (props)=>{
             <Text style={styles.mystyle}>
                 {props.mystyle}
                 </Text>
-                <Text style={styles.mystate}>
-                {props.mystate}
-            </Text>
         </View>
     )
 }
@@ -20,11 +17,5 @@ const styles = StyleSheet.create({
         fontSize : 30,
         fontWeight:"bold",
         marginTop:40,
-    },
-    mystate:{
-        color : "blue",
-        textAlign : "center",
-        fontSize : 30,
-        fontWeight:"bold",
     }
 })
