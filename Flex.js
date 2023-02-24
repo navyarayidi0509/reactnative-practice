@@ -5,15 +5,15 @@ const P = (props) => {
       <View style = {styles.container}>
          <Text style = {styles.firstbox}>
             {props.firstbox}</Text>
-         <Text style = {styles.secondbox}>{props.secondbox}</Text>
-         <Text style = {styles.thirdbox}>{props.thirdbox}</Text>
+         <Text style = {styles.secondbox}></Text>
+         <Text style = {styles.thirdbox}></Text>
       </View>
    )
 }
 export default P
 const styles = StyleSheet.create ({
    container: {
-      flexDirection: 'column',
+      flexDirection: 'row',
       justifyContent: 'center',
       alignItems: 'center',
       height: 600
