@@ -3,17 +3,16 @@ import {Text, View, StyleSheet } from 'react-native'
 const P = (props) => {
    return (
       <View style = {styles.container}>
-         <Text style = {styles.firstbox}>
-            {props.firstbox}</Text>
-         <Text style = {styles.secondbox}></Text>
-         <Text style = {styles.thirdbox}></Text>
+         <View style = {styles.firstbox} />
+         <View style = {styles.secondbox} />
+         <View style = {styles.thirdbox} />
       </View>
    )
 }
 export default P
 const styles = StyleSheet.create ({
    container: {
-      flexDirection: 'row',
+      flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
       height: 600
