@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import P from './Textinput1'
+import P from './Scrollview'
 export default class App extends React.Component {
    render() {
       return (
