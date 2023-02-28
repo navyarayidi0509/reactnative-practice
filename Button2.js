@@ -1,15 +1,17 @@
 import React from 'react'
-import { Button,View,Text ,StyleSheet} from 'react-native'
+import { Button,View,Text ,StyleSheet,TouchableOpacity} from 'react-native'
 const P = () => {
    const P1 = () => false
    return (
       <View style = {styles.container}>
+        <TouchableOpacity>
         <Text style={styles.text}>
       <Button
       title = 'hi hello'
       color = 'red'
       />
       </Text>
+      </TouchableOpacity>
    </View>
    )
 } 
