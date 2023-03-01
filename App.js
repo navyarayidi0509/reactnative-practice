@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import P from './List2'
+import P from './Webviewex'
 export default class App extends React.Component {
    render() {
       return (

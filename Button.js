@@ -5,7 +5,7 @@ const P = () => {
    return (
       <Button
       title = 'hi hello'
-      color = 'violet'
+      color = 'red'
       />
    )
 }
