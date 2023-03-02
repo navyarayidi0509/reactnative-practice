@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import P from './Picker1'
+import P from './Activity1'
 export default class App extends React.Component {
    render() {
       return (
