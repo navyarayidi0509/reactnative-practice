@@ -1,0 +1,18 @@
+only call hooks at top level
+dont call hooks inside loops,conditions,nested functions
+hooks can be used in functions only 
+hooks cannot  be used in class 
+
+**usestate
+in classes state is always defined as objects
+using usestate hook,state can be anything
+when dealing with objects or arrays dont forget to use spread operator and then only call setter function
+
+**lifecycle methods
+constructor-function created whenever a new component is created
+           -intialising state and binding event handlers and cannot make http request
+props-directly overwrite this.state
+
+**useeffect
+useeffect removes the side effects of lifecycle methods
+the three lifecycle methods componentdidmount,componentdidupdate,componentwillunmount are handled by useeffect hook.

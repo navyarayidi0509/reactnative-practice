@@ -1700,6 +1700,11 @@
     prompts "^2.4.0"
     semver "^6.3.0"
 
+"@react-native-community/geolocation@^3.0.5":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@react-native-community/geolocation/-/geolocation-3.0.5.tgz#de6a0519277133be46df556f09c5691fe1ed8eaf"
+  integrity sha512-dpigB7ni085rCBi85rIHNrs8hcKaLtDQVxNm1zgXrYZNO7XKN/GSL3AjYBBG7z9pG6qNyQNl4Xge8jWUCudTyQ==
+
 "@react-native-picker/picker@^2.4.8":
   version "2.4.8"
   resolved "https://registry.npmjs.org/@react-native-picker/picker/-/picker-2.4.8.tgz"
@@ -5290,7 +5295,7 @@ react-native-web@~0.18.7:
 
 react-native-webview@11.23.1:
   version "11.23.1"
-  resolved "https://registry.yarnpkg.com/react-native-webview/-/react-native-webview-11.23.1.tgz#6a4bf2620e491dd4fecf4e6dc079005117fae12c"
+  resolved "https://registry.npmjs.org/react-native-webview/-/react-native-webview-11.23.1.tgz"
   integrity sha512-bmqsdg4RYOUYD37R9XTrQALm7eD62KbLNPRfgvpLGd1SjaurvAjjsLrLN4mt6yOtKOMKeZvlcAl3x6De6cCQsA==
   dependencies:
     escape-string-regexp "2.0.0"
